@@ -8,11 +8,8 @@ This is alpha testing of online food delivery web application [Takeaway](https:/
 # Getting Statrted
 This project performs testing of Takeaway application. It covers a scenario where user can order food from restaurants in their area.
 ## Prerequisites
-The only requirement for this project is to have [Node.js](https://nodejs.org/en/) version greater than 0.10.0.
+Install node - https://nodejs.org/en/download/
 
-The Protractor install includes the following:
-- ```protractor``` command line tool
-- ```webdriver-manager``` command line tool
 ## Installation
 - Clone this repo to a local directory
 ```git clone https://github.com/ShwetaLute/shweta_assignment_takeaway.git```
