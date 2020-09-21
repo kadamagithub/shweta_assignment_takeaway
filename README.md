@@ -13,17 +13,17 @@ The Protractor install includes the following:
 - ```webdriver-manager``` command line tool
 ## Installation
 - Clone this repo to a local directory
-```git clone https://github.com/<your-username>/cypress-example-kitchensink.git```
+```git clone https://github.com/ShwetaLute/shweta_assignment_takeaway.git```
 
 - cd into the cloned repo
-```cd cypress-example-kitchensink```
+```cd shweta_assignment_takeaway```
 
 - install the node_modules
 ```npm install```
 
 - start the local webserver
-```webdriver-manager update```,
-```webdriver-manager start```
+```webdriver-manager update```
+
 ## Running Tests
 Start tests in terminal (This command will run all the tests):
  Ensure terminal is in the project folder
@@ -34,6 +34,4 @@ To run the test in firefox browser
 # Reports
 Reports are generated using the plugin [Mochawesome](https://www.npmjs.com/package/mochawesome).
 
-To generate a code coverage report:
-1. Run `yarn cypress:run --env coverage=true` and wait for the test run to complete.
-2. Once the test run is complete, you can view the report at `coverage/index.html`
+
