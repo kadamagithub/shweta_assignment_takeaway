@@ -3,6 +3,8 @@ This is alpha testing of online food delivery web application [Takeaway](https:/
 - :nut_and_bolt: UI automation tool used in this project is [Protractor](https://www.protractortest.org/).
 - :page_with_curl:[Mocha](https://mochajs.org/) testing framework is used.
 - :bar_chart: Reports are generated in [Mochawesome](https://www.npmjs.com/package/mochawesome).
+- :page_with_curl: Page object model framework
+
 # Getting Statrted
 This project performs testing of Takeaway application. It covers a scenario where user can order food from restaurants in his area.
 ## Prerequisites
@@ -23,19 +25,16 @@ The Protractor install includes the following:
 
 - download browser drivers
 
-if you have latest chrome version installed, use node node_modules/protractor/bin/webdriver-manager update
-if your machine doesnt have latest chrome installed, plesae use node node_modules/protractor/bin/webdriver-manager update --versions.chrome "your chrome driver version"
+if you have latest chrome version installed, use ```node node_modules/protractor/bin/webdriver-manager update```
+if your machine doesnt have latest chrome installed, plesae use ```node node_modules/protractor/bin/webdriver-manager update --versions.chrome "your chrome driver version"```
 you can get it from chrome settings ( example chrome version - 84.0.4147.30 )
 
 
 ## Running Tests
 Start tests in terminal (This command will run all the tests):
  Ensure terminal is in the project folder
-   ```protractor conf.js```
+   ```protractor protractor-conf.js```
 
-To run the test in firefox browser
-```npm run test:firefox```
+
 # Reports
-Reports are generated using the plugin [Mochawesome](https://www.npmjs.com/package/mochawesome).
-
-
+Reports generated can be found at cd into cloned repo/test/report
