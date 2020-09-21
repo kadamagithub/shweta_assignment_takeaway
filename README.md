@@ -6,7 +6,7 @@ This is alpha testing of online food delivery web application [Takeaway](https:/
 - :page_with_curl: Page object model framework
 
 # Getting Statrted
-This project performs testing of Takeaway application. It covers a scenario where user can order food from restaurants in his area.
+This project performs testing of Takeaway application. It covers a scenario where user can order food from restaurants in their area.
 ## Prerequisites
 The only requirement for this project is to have [Node.js](https://nodejs.org/en/) version greater than 0.10.0.
 
