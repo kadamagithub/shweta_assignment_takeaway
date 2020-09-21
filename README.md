@@ -21,8 +21,12 @@ The Protractor install includes the following:
 - install the node_modules
 ```npm install```
 
-- start the local webserver
-```webdriver-manager update```
+- download browser drivers
+
+if you have latest chrome version installed, use node node_modules/protractor/bin/webdriver-manager update
+if your machine doesnt have latest chrome installed, plesae use node node_modules/protractor/bin/webdriver-manager update --versions.chrome "your chrome driver version"
+you can get it from chrome settings ( example chrome version - 84.0.4147.30 )
+
 
 ## Running Tests
 Start tests in terminal (This command will run all the tests):
