@@ -7,6 +7,7 @@ This is alpha testing of online food delivery web application [Takeaway](https:/
 
 # Getting Statrted
 This project performs testing of Takeaway application. It covers a scenario where user can order food from restaurants in their area.
+
 ## Prerequisites
 Install node - https://nodejs.org/en/download/
 
@@ -26,12 +27,8 @@ if you have latest chrome version installed, use ```node node_modules/protractor
 if your machine doesnt have latest chrome installed, plesae use ```node node_modules/protractor/bin/webdriver-manager update --versions.chrome "your chrome driver version"```
 you can get it from chrome settings ( example chrome version - 84.0.4147.30 )
 
-
 ## Running Tests
-Start tests in terminal (This command will run all the tests):
- Ensure terminal is in the project folder
-   ```protractor protractor-conf.js```
-
+Open terminal in project folder and run  ```protractor protractor-conf.js```
 
 # Reports
 Reports generated can be found at cd into cloned repo/test/report
